@@ -1,5 +1,5 @@
 <template>
-    <footer class="mt-20 p-20 bg-green-950 text-white-200">
+    <footer class="p-20 bg-green-950 text-white-200">
     <div class="text-xl font-medium">Credits:</div>
     <div class="text-emerald-500">
       <div>

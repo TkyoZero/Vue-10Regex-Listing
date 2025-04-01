@@ -1,7 +1,7 @@
 <template>
   <main class="bg-white-200 font-display">
     <Header class=""/>
-    <div class="grid grid-cols-2 2xl:grid-cols-4 gap-4">
+    <div class="mt-20 mb-20 grid grid-cols-2 2xl:grid-cols-4 gap-4">
       <RegexListing 
       v-for="item in all_regex" 
       :key="item.id" 
