@@ -1,7 +1,13 @@
+<script setup lang="ts">
+import LanguageSwitcher from './LanguageSwitcher.vue';
+
+</script>
+
 <template>
-    <header class="p-20 bg-green-950 text-white-200">
+    <header class="p-15 pb-20 bg-green-950 text-white-200">
     <RouterLink to="/">
-      <h1 class="m-4 p-4 text-center text-5xl font-display">Regex Rules</h1>
+      <h1 class="p-4 text-center text-5xl font-display">Regex Rules</h1>
     </RouterLink>
+    <LanguageSwitcher />
   </header>
 </template>

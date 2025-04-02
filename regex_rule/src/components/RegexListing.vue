@@ -8,7 +8,7 @@
             </div>
             <div>
                 <h3 class="text-xl font-semibold text-green-500">Example</h3>
-                <p class="text-lg">{{ example }}</p>
+                <p class="text-lg"><em>{{ example }}</em></p>
             </div>
         </div>
     </div>
@@ -16,13 +16,13 @@
 
 <script>
 export default {
-  name: 'RegexListing',
-  props: {
-    id: Number,
-    title: String,
-    character: String,
-    description: String,
-    example: String
-  }
+    name: 'RegexListing',
+    props: {
+        id: Number,
+        title: String,
+        character: String,
+        description: String,
+        example: String
+    }
 }
 </script>
