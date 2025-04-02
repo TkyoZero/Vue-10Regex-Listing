@@ -1,6 +1,6 @@
 <template>
     <div class="m-5 p-5">
-        <h3 class="text-2xl font-bold text-green-500">{{ title }}</h3>
+        <h3 class="text-3xl font-bold text-green-500">{{ title }}</h3>
         <div class="grid grid-cols-2 gap-2">
             <div>
                 <p class="text-2xl font-bold text-green-500">{{ character }}</p>
